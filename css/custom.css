@@ -1,0 +1,60 @@
+/* Custom Header Styling */
+header {
+    padding: 10px 0;
+}
+
+.navbar-brand img {
+    filter:invert(1);
+}
+
+/* Hero Section Styling */
+.hero-section {
+    margin-top: 10px;
+}
+
+.hero-section .carousel-item img {
+    height: 400px; /* Adjust banner height */
+    object-fit: cover;
+}
+/* Product Card Styling */
+.card-img-top {
+    height: 300px; /* Adjust image height */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Footer Styling */
+footer h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
